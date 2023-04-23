@@ -16,9 +16,8 @@ class CaesorCipherTest {
         assertEquals("", caesorCipher.cipher("", 12));
     }
 
-
-//    @Test
-//    void testCipheredMessageWithOffsetOf11(){
-//        assertEquals("tai mdq kag pauzs fapmk", caesorCipher.cipher("how are you doing today", 11));
-//    }
+    @Test
+    void testCipheredMessageWithOffsetOf11(){
+        assertEquals("tai mdq kag pauzs fapmk", caesorCipher.cipher("how are you doing today", 11));
+    }
 }
